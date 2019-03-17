@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+Selamat datang di Artaku
 
 You can use the [editor on GitHub](https://github.com/elangbayu/papbsmt4/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
