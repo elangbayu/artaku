@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Artaku</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Masuk</string>
+    <string name="error_invalid_email">Alamat email tersebut tidak valid</string>
+    <string name="error_invalid_password">Password terlalu pendek</string>
+    <string name="error_incorrect_password">Password salah</string>
+    <string name="error_field_required">Harus diisi</string>
+    <string name="permission_rationale">"Perijinan Kontak harus diijinkan untuk menggunakan autocomplete email."
+    </string>
+    <string name="masuk_teks">Masuk</string>
+    <string name="masuk_dengan_google">Masuk dengan Google</string>
+</resources>
