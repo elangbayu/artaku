@@ -2,6 +2,9 @@
     <string name="app_name">Artaku</string>
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
+    <string name="prompt_name">Nama</string>
+    <string name="prompt_tanggal_lahir">Tanggal Lahir</string>
+    <string name="prompt_gender">Jenis Kelamin</string>
     <string name="prompt_password">Password</string>
     <string name="action_sign_in">Sign in or register</string>
     <string name="action_sign_in_short">Masuk</string>
@@ -15,6 +18,11 @@
     <string name="daftar_teks">Daftar</string>
     <string name="masuk_dengan_google">Masuk dengan Google</string>
     <string name="daftar_dengan_google">Daftar dengan Google</string>
+
+    <string-array name="list_gender">
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+    </string-array>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
