@@ -12,5 +12,11 @@
     <string name="permission_rationale">"Perijinan Kontak harus diijinkan untuk menggunakan autocomplete email."
     </string>
     <string name="masuk_teks">Masuk</string>
+    <string name="daftar_teks">Daftar</string>
     <string name="masuk_dengan_google">Masuk dengan Google</string>
+    <string name="daftar_dengan_google">Daftar dengan Google</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fitur_teks">Catat keuangan Anda dengan mudah.</string>
 </resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#639AA6"
+    android:layout_height="match_parent"
+    tools:context=".SliderAwal">
+
+    <!-- Fitur-fitur -->
+    <LinearLayout
+        android:id="@+id/fitur-fitur"
+        android:orientation="vertical"
+        android:layout_marginTop="230dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/fitur_gambar"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/fitur_teks"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/fitur_teks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <!--Akhir Fitur-fitur-->
+
+    <TextView
+        android:layout_marginTop="80dp"
+        android:text="Artaku"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:textSize="70sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="500dp"
+        android:textColor="#b7c8cc"
+        android:layout_gravity="center_horizontal"
+        android:text="Mulai dengan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="540dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/background_button_masuk"
+        android:id="@+id/button_masuk_fragment"
+        android:text="@string/masuk_teks"
+        android:layout_width="170dp"
+        android:layout_height="50dp" />
+
+    <Button
+        android:layout_gravity="right"
+        android:background="@drawable/background_button_masuk"
+        android:layout_marginTop="540dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/button_daftar_fragment"
+        android:text="@string/daftar_teks"
+        android:layout_width="170dp"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:layout_marginBottom="19dp"
+        android:textColor="#b7c8cc"
+        android:textSize="12sp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:text="PT. Arta Digital Nusantara © 2019"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+</FrameLayout>
