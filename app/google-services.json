@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "188599757504",
+    "firebase_url": "https://artaku-1b444.firebaseio.com",
+    "project_id": "artaku-1b444",
+    "storage_bucket": "artaku-1b444.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188599757504:android:1e93c6365e792683",
+        "android_client_info": {
+          "package_name": "com.nusantara.artadigital.artaku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "188599757504-r4tbi0h46aksq1qcfa7qutt6bbcfglho.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nusantara.artadigital.artaku",
+            "certificate_hash": "fa64d122f8511dd21a4ce7daebafa2cf2ebb27f5"
+          }
+        },
+        {
+          "client_id": "188599757504-gsepvm5pdus6uieg9mj5569qfscss604.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAA2PVBpghcaAmRfXeyFFD-X8H-OvdNow"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "188599757504-gsepvm5pdus6uieg9mj5569qfscss604.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
