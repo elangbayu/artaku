@@ -81,6 +81,8 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     private View mProgressView;
     private View mLoginFormView;
 
+
+    //google
     SignInButton button;
     FirebaseAuth mAuth;
     FirebaseAuth.AuthStateListener mAuthListener;
@@ -127,6 +129,8 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         mLoginFormView = findViewById(R.id.login_form);
         mProgressView = findViewById(R.id.login_progress);
 
+
+        //google
         button = (SignInButton) findViewById(R.id.google_sign_in_button);
         mAuth = FirebaseAuth.getInstance();
 
@@ -166,6 +170,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
     }
 
+    //google
     private void signIn() {
         Intent signInIntent = Auth.GoogleSignInApi.getSignInIntent(mGoogleApiClient);
         startActivityForResult(signInIntent, RC_SIGN_IN);
@@ -217,6 +222,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                     }
                 });
     }
+    //selesai
 
 
     private void populateAutoComplete() {
@@ -278,8 +284,8 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         mPasswordView.setError(null);
 
         // Store values at the time of the login attempt.
-        String email = mEmailView.getText().toString();
-        String password = mPasswordView.getText().toString();
+        String email = mEmailView.getText().toString().trim();
+        String password = mPasswordView.getText().toString().trim();
 
         boolean cancel = false;
         View focusView = null;
@@ -322,7 +328,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
     private boolean isPasswordValid(String password) {
         //TODO: Replace this with your own logic
-        return password.length() > 4;
+        return password.length() < 6;
     }
 
     /**
