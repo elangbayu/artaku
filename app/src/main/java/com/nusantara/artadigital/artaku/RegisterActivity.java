@@ -110,6 +110,7 @@ public class RegisterActivity extends AppCompatActivity {
                                 if(!task.isSuccessful()){
                                     Toast.makeText(RegisterActivity.this,"Authentication failed." + task.getException(), Toast.LENGTH_SHORT).show();
                                 }else{
+                                    Toast.makeText(RegisterActivity.this,"alhamdulillah masuk",Toast.LENGTH_SHORT).show();
                                     startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
                                     finish();
                                 }
