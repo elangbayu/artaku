@@ -2,6 +2,10 @@
 <resources>
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="textAccents">#FFF</color>
     <color name="colorAccent">#FFFFFF</color>
     <color name="backgroundHomeScreen">#639AA6</color>
+    <color name="icon">#43B05C</color>
+    <color name="secondary">#64C2D6</color>
+    <color name="lightgray">#878787</color>
 </resources>
